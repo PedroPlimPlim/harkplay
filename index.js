@@ -15,7 +15,7 @@ var options =
 		username: "PedroPlimPlim2",
 		password: "oauth:j0doj0s6heces8k62154wlhqkjd5mf",  
 	},
-	channels: ['#johnpittertv', '#gaules',] //ADICIONA OS CANAIS AQ COM '#NOME'
+	channels: ['#johnpittertv', '#gaules','#Surskity'] //ADICIONA OS CANAIS AQ COM '#NOME'
 };
 
 var client = new tmi.client(options);
