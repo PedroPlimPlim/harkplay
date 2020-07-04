@@ -15,7 +15,7 @@ var options =
 		username: "PedroPlimPlim2",
 		password: "oauth:vru17xdmrz734edotsvu57i1kib187",  
 	},
-	channels: ['#johnpittertv', '#gaules', '#Surskity', '#Rainbow6'] //ADICIONA OS CANAIS AQ COM '#NOME'
+	channels: ['#johnpittertv', '#gaules', '#Surskity', '#Rainbow6', '#SkipNhO'] //ADICIONA OS CANAIS AQ COM '#NOME'
 };
 
 var client = new tmi.client(options);
@@ -24,5 +24,5 @@ var client = new tmi.client(options);
 	client.on("connected", function (address, port)
 	{
 		console.log("address: " + address + " port: " + port);
-		client.action("999mateus", "Hello 999mateus!")
+		client.action("PedroPlimPlim2", "oi")
 	});
